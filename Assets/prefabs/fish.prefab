@@ -1,0 +1,40 @@
+{
+  "RootObject": {
+    "__guid": "afc5f9bf-26f0-4619-bc7d-dd79b8b21db1",
+    "Flags": 0,
+    "Name": "fish",
+    "Position": "0.004772527,0.0000000002844648,-0.1616428",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkInterpolation": true,
+    "Components": [
+      {
+        "__type": "UnitInfo",
+        "__guid": "99da2d4b-1b9a-4a19-ac72-cc6e053ebde1",
+        "DelayDeath": 0,
+        "HealthRegenAmount": 0.3,
+        "HealthRegenTimer": 5,
+        "MaxHealth": 3,
+        "Team": "Fish"
+      },
+      {
+        "__type": "Sandbox.SkinnedModelRenderer",
+        "__guid": "80663272-15cf-4618-a59d-d8b3e32c4412",
+        "BodyGroups": 18446744073709551615,
+        "CreateBoneObjects": false,
+        "Model": "models/fishing/fishing.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": [
+    "kapidranik.fish_anton"
+  ]
+}
